@@ -1,5 +1,5 @@
 ## RoboTried
-#Three-Candle Channel Trading EA (MQL5)
+Three-Candle Channel Trading EA (MQL5)
 
 This Expert Advisor is based on a three-candle channel pattern combined with Moving Average filtering.
 The EA analyzes market structure on the selected timeframe and places Buy Limit or Sell Limit orders when both channel direction and MA conditions are confirmed.
@@ -22,7 +22,7 @@ Each candle’s high and low is lower than the previous one.
 Additional BO (Break-Out) confirmation is applied.
 
 
-#2. Moving Average Filter
+2. Moving Average Filter
 
 The EA verifies that the last 3 candles are:
 
@@ -36,7 +36,7 @@ The MA period, method, and applied price are user-configurable.
 
 ---
 
-##📌 Entry Logic
+📌 Entry Logic
 
 When conditions align:
 
@@ -52,7 +52,7 @@ Take Profit is calculated using a configurable Reward Ratio.
 
 ---
 
-##⚙️ Inputs
+⚙️ Inputs
 
 Parameter	Description
 
@@ -67,14 +67,14 @@ LimitTime	Max waiting time before deleting orders
 
 ---
 
-##📌 Money Management
+📌 Money Management
 
 Lot size is automatically calculated using the distance between entry and stop loss.
 
 
 ---
 
-##🔧 Additional Features
+🔧 Additional Features
 
 Auto-deletes pending orders if price does not activate them within LimitTime.
 
@@ -86,7 +86,7 @@ Clean modular functions for checking channel, MA, BO, and lot size.
 
 ---
 
-#📜 Disclaimer
+📜 Disclaimer
 
 This EA is provided for educational purposes.
 Backtest and forward-test before using it on a live account.
