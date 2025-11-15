@@ -1,5 +1,5 @@
 ## RoboTried
-########Three-Candle Channel Trading EA (MQL5)
+#Three-Candle Channel Trading EA (MQL5)
 
 This Expert Advisor is based on a three-candle channel pattern combined with Moving Average filtering.
 The EA analyzes market structure on the selected timeframe and places Buy Limit or Sell Limit orders when both channel direction and MA conditions are confirmed.
