@@ -7,7 +7,7 @@ The EA analyzes market structure on the selected timeframe and places Buy Limit 
 
 ---
 
-##📈 Strategy Overview
+##Strategy Overview
 
 #1. Three-Candle Channel Pattern
 
